@@ -17,14 +17,18 @@ public class Doa {
     }
 
     public String getNama() {
+
         return nama;
+
     }
 
     public String getArti() {
+
         return arti;
     }
 
     public String getSurah() {
+
         return surah;
     }
 

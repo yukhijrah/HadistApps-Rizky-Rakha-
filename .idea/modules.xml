@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AppsHadist.iml" filepath="$PROJECT_DIR$/AppsHadist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hadist&amp;Doa.iml" filepath="$PROJECT_DIR$/Hadist&amp;Doa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

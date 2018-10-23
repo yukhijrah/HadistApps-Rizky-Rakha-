@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</RelativeLayout>
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_nama_doa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text=" Doa"
+        android:textSize="@dimen/material_text_display2"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_surah_doa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="Surah"
+        android:textSize="@dimen/material_text_display3"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txt_arti_doa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arti Doa"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
