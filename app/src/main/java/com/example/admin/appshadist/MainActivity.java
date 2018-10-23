@@ -24,13 +24,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        recyclerView = (RecyclerView) findViewById(R.id.txt_arti_doa);
+
+        recyclerView = (RecyclerView) findViewById(R.id.lst_doa);
 
         doaCollections();
 
         DoaAdapter doaAdapter = new DoaAdapter(getApplicationContext(), doas);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
+        RecyclerView.LayoutManager layoutes = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(layoutes);
         recyclerView.setAdapter(doaAdapter);
     }
 

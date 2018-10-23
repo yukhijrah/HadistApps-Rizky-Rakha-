@@ -54,8 +54,7 @@ public class DoaAdapter extends RecyclerView.Adapter<DoaHolder> {
         final Doa doa = doaList.get(position);
         holder.txtNamaDoa.setText(doa.getNama());
         holder.txtArtiDoa.setText(doa.getArti());
-//        holder.txtNamaDoa.setText(doaList.get(position).getNama());
-//        holder.txtArtiDoa.setText(doaList.get(position).getArti());
+
 
     }
 

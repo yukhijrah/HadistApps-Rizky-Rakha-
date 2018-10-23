@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:text="Surah"
+        android:text="Al-Qiyamah"
         android:textSize="@dimen/material_text_display3"
         android:textStyle="normal" />
 
@@ -33,7 +33,7 @@
         android:id="@+id/txt_arti_doa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Arti Doa"
+        android:text="Kiamat"
         android:textSize="30dp"
         android:textStyle="italic" />
 
